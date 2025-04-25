@@ -4,12 +4,12 @@ Un banco evalúa solicitudes de préstamo bajo dos criterios principales: (1) el
 """
 
 # Variables
-ingreso_mensual = 6000
-deuda = 1
-puntuacion_credito = 800
+ingreso_mensual = 2500
+deuda = 0
+puntuacion_credito = 700
 
 # Operadores lógicos
-if (ingreso_mensual > 2000 or puntuacion_credito > 649 ) and deuda == 0:
+if (ingreso_mensual or puntuacion_credito ) or deuda == 0:
     print("Préstamo aprobado 💰")
 else:
     print("Préstamo rechazado 🚫")

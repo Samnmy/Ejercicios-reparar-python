@@ -6,7 +6,7 @@ edad = 17
 tiene_permiso = True
 
 # Operadores lógicos
-if edad > 17 and tiene_permiso:
+if edad  or tiene_permiso:
     print("Acceso concedido ✅")
 else:
     print("Acceso denegado ❌")
